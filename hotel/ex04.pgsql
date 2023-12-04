@@ -26,7 +26,7 @@ favoravel AS (
         AND
         EXTRACT(YEAR FROM saida)
     GROUP BY cliente
-    HAVING COUNT(*) >= 3
+    HAVING COUNT(*) >= 2
   ) AS tmp
 )
 SELECT ROUND((favoravel.clientes_recorrentes::NUMERIC / total.clientes::NUMERIC * 100), 2) || '%' AS percentual

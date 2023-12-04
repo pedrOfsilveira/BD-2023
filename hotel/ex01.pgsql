@@ -30,7 +30,7 @@ WITH quinta AS
       WHEN 4 THEN '0 DAYS'
       WHEN 5 THEN '1 DAYS'
       WHEN 6 THEN '2 DAYS'
-      END 
+    END 
   )::INTERVAL AS quinta_passada
 )
 SELECT quarto.andar, quarto.quarto FROM hospedagem
