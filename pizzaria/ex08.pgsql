@@ -1,11 +1,5 @@
 -- 08) Qual o ranking dos sabores mais pedidos nos últimos 15 dias?
 
-
--- SELECT sabor, COUNT(*) as quantidade
--- FROM pizzasabor
--- GROUP BY sabor
--- ORDER BY quantidade DESC;
-
 SELECT sabor.nome, COUNT(*) AS quantidade
 FROM pizza
 JOIN comanda ON comanda.numero = pizza.comanda

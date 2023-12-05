@@ -1,6 +1,5 @@
 -- 07) Quais dias da semana tiveram menos de 20 comandas no mês passado?
 
-
 SELECT *
 FROM (
   SELECT
