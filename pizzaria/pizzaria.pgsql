@@ -1,3 +1,14 @@
+drop table pizzasabor;
+drop table pizza;
+drop table comanda;
+drop table precoportamanho;
+drop table saboringrediente;
+drop table mesa;
+drop table borda;
+drop table sabor;
+drop table ingrediente;
+drop table tipo;
+drop table tamanho;
 
 create table tamanho (
 	codigo char(1) not null,
@@ -390,14 +401,14 @@ insert into comanda (numero, data, mesa, pago) values
 (7, '2021-11-23', 9, true),
 (8, '2021-11-23', 9, true),
 (9, '2021-11-23', 14, true),
-(10, '2021-11-24', 14, true),
+(10, '2023-11-26', 14, true),
 (11, '2021-11-24', 10, true),
 (12, '2021-11-24', 6, true),
 (13, '2021-11-24', 10, true),
-(14, '2021-11-24', 13, true),
+(14, '2021-11-27', 13, true),
 (15, '2021-11-24', 3, true),
 (16, '2021-11-24', 11, true),
-(17, '2021-11-24', 2, true),
+(17, '2023-11-26', 2, true),
 (18, '2021-11-24', 9, true),
 (19, '2021-11-24', 11, true),
 (20, '2021-11-24', 15, true),
@@ -441,7 +452,7 @@ insert into comanda (numero, data, mesa, pago) values
 (58, '2021-11-28', 15, true),
 (59, '2021-11-28', 6, true),
 (60, '2021-11-28', 12, true),
-(61, '2021-11-28', 8, true),
+(61, '2023-11-28', 8, true),
 (62, '2021-11-28', 13, true),
 (63, '2021-11-28', 6, true),
 (64, '2021-11-29', 11, true),
@@ -458,10 +469,10 @@ insert into comanda (numero, data, mesa, pago) values
 (75, '2021-11-29', 15, true),
 (76, '2021-11-29', 1, true),
 (77, '2021-11-29', 2, true),
-(78, '2021-11-29', 4, true),
+(78, '2023-11-29', 4, true),
 (79, '2021-11-30', 7, true),
 (80, '2021-11-30', 14, true),
-(81, '2021-11-30', 9, true),
+(81, '2023-11-30', 9, true),
 (82, '2021-11-30', 11, true),
 (83, '2021-11-30', 12, true),
 (84, '2021-11-30', 15, true),
@@ -7003,9 +7014,9 @@ insert into comanda (numero, data, mesa, pago) values
 (6620, '2023-10-24', 9, true),
 (6621, '2023-10-24', 8, true),
 (6622, '2023-10-24', 15, true),
-(6623, '2023-10-24', 2, false),
-(6624, '2023-10-24', 1, false),
-(6625, '2023-10-24', 8, false);
+(6623, '2023-11-26', 2, false),
+(6624, '2023-11-27', 1, false),
+(6625, '2023-11-29', 8, false);
 
 insert into pizza (codigo, comanda, tamanho, borda) values
 (1, 1, 'F', 3),
@@ -7477,7 +7488,7 @@ insert into pizza (codigo, comanda, tamanho, borda) values
 (467, 235, 'M', 5),
 (468, 236, 'M', null),
 (469, 236, 'P', null),
-(470, 236, 'G', null),
+(470, 235, 'G', null),
 (471, 237, 'P', null),
 (472, 237, 'F', 1),
 (473, 238, 'P', 1),
@@ -7487,7 +7498,7 @@ insert into pizza (codigo, comanda, tamanho, borda) values
 (477, 240, 'P', 2),
 (478, 241, 'M', null),
 (479, 241, 'G', null),
-(480, 242, 'G', 3),
+(480, 235, 'G', 3),
 (481, 242, 'G', 2),
 (482, 243, 'P', 1),
 (483, 243, 'G', null),
