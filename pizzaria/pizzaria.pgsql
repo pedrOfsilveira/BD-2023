@@ -1,14 +1,3 @@
-drop table pizzasabor;
-drop table pizza;
-drop table comanda;
-drop table precoportamanho;
-drop table saboringrediente;
-drop table mesa;
-drop table borda;
-drop table sabor;
-drop table ingrediente;
-drop table tipo;
-drop table tamanho;
 
 create table tamanho (
 	codigo char(1) not null,

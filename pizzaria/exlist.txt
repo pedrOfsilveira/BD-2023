@@ -1,0 +1,31 @@
+Utilizando a modelagem da pizzaria, escreva comandos select para responder as perguntas:
+01) Quantas pizzas de tamanho grande ou família foram pedidas pela comanda 235?
+02) Qual a quantidade de comandas não pagas na última semana?
+03) Qual a quantidade média de ingredientes por sabor?
+04) Quantos sabores doces possuem mais de 8 ingredientes?
+05) Quais dias tiveram mais de 10 comandas nos últimos 15 dias?
+06) Qual o ranking da quantidade de comandas por dia da semana no mês passado?
+07) Quais dias da semana tiveram menos de 20 comandas no mês passado?
+08) Qual o ranking dos sabores mais pedidos nos últimos 15 dias?
+09) Qual o valor a pagar da comanda 315?
+10) Quais sabores contém o ingrediente bacon?
+11) Quais sabores contém os ingredientes bacon e gorgonzola?
+12) Quais sabores salgados possuem mais de 8 ingredientes?
+13) Quais sabores salgados foram pedidos mais de 20 vezes no mês passado?
+14) Qual o ranking dos ingredientes mais pedidos nos últimos 12 meses?
+15) Qual o ranking dos sabores doces mais pedidos nos últimos 12 meses por mês?
+16) Qual a quantidade de pizzas pedidas por tipo por tamanho nos últimos 6 meses?
+17) Qual o ranking dos ingredientes mais pedidos acompanhando cada borda nos últimos 6 meses?
+18) Qual sabor tem menos ingredientes?
+19) Qual sabor não foi pedido nos últimos 4 domingos?
+20) Qual mesa foi menos utilizada nos últimos 60 dias?
+21) Qual o sabor mais pedido por tipo no ano passado?
+22) Quais mesas foram utilizadas mais de 2 vezes a média de utilização de todas as mesas nos últimos 60 dias?
+23) Quais sabores estão entre os 10 mais pedidos no último mês e também no penúltimo mês?
+24) Quais sabores estão entre os 10 mais pedidos no último mês mas não no penúltimo mês?
+25) Quais sabores não foram pedidos nos últimos 3 meses?
+26) Quais foram os 5 ingredientes mais pedidos na última estação do ano?
+27) Qual é o percentual atingido de arrecadação com venda de pizzas no ano atual em comparação com o total arrecadado no ano passado?
+28) Qual dia da semana teve maior arrecadação em pizzas nos últimos 60 dias?
+29) Qual a combinação de 3 sabores mais pedida na mesma pizza nos últimos 3 meses?
+30) Qual a combinação de sabor e borda mais pedida na mesma pizza nos últimos 3 meses?
